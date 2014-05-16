@@ -9,7 +9,7 @@ namespace ConsoleApplication1.InputHelpers
 {
     class PersonInput : IInputHelper<Person>
     {
-        public Person makeObject()
+        public Person MakeObject()
         {
             return new Person()
             {
@@ -19,7 +19,7 @@ namespace ConsoleApplication1.InputHelpers
             };
         }
 
-        public object requestID()
+        public object RequestId()
         {
             return ConsoleDialog.Request<int>("Введите ИНН элемента", Int32.TryParse);
         }

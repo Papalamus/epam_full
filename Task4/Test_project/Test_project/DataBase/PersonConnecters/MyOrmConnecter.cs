@@ -17,52 +17,22 @@ namespace DataObjects.DataBase.PersonConnecters
         private MyOrmBase classBase;
         
         private MyOrmBase.MappedType mappedType;
+
+
+        public bool Insert(T p)
+        {
+            adoHelper.ExequteNonQuery(command =>
+            {
+                command.CommandText = MakeInsertString(p);
+            });
+            return true;
+        }
         //Dictionary<string, MemberInfo> mappedType = new Dictionary<string, MemberInfo>();
         //private string tableName;
         //private string idTableField;
 
 
-
-        //public  MyOrmConnecter()
-        //{
-        //    MapClass();
-        //    adoHelper = new AdoHelper();
-        //}
-
-
-
-        //public void MapClass()
-        //{
-        //    Type t = typeof(T);
-        //    TableOrmSaveAttribute tableOrmInstance = t.GetCustomAttribute<TableOrmSaveAttribute>();
-
-        //    if (tableOrmInstance == null)
-        //        return;
-        //    tableName = tableOrmInstance.Name;
-
-        //    MapMembers(t.GetFields());
-        //    MapMembers(t.GetProperties());
-        //}
-
-        //private void MapMembers(IEnumerable<MemberInfo> members)
-        //{
-        //    foreach (MemberInfo memberInfo in members)
-        //    {
-        //        FieldOrmSaveAttribute attr = memberInfo.GetCustomAttribute<FieldOrmSaveAttribute>();
-        //        if (attr != null)
-        //        {
-        //            mappedType.Add(attr.Name, memberInfo);
-        //        }
-        //        IdFieldOrmSave id = memberInfo.GetCustomAttribute<IdFieldOrmSave>();
-        //        if (id != null)
-        //        {
-        //            idTableField = id.Name;
-        //        }
-        //    }
-        //}
-
-
-        //_______________________________________________________-
+    //_______________________________________________________-
         //public string MakeInsertString(object obj)
         //{
         //    if (mappedType.Count < 0)
@@ -85,13 +55,7 @@ namespace DataObjects.DataBase.PersonConnecters
         //    return string.Format("Insert into {0}({1}) Values ({2})",tableName, into, values);
         //}
 
-        //public string MakeDeleteString(string whereSection)
-        //{
-        //    if (mappedType.Count < 0)
-        //    {
-        //        return string.Empty;
-        //    }
-
+        
         //    return string.Format("Delete from {0} " + whereSection, tableName);
         //}
 
@@ -164,19 +128,7 @@ namespace DataObjects.DataBase.PersonConnecters
         //    return true;
         //}
 
-        public void DeletebyID(object ID)
-        {
-           
-        }
-
-        //public bool Insert(T p)
-        //{
-        //    adoHelper.ExequteNonQuery(command =>
-        //    {
-        //        command.CommandText = MakeInsertString(p);
-        //    });
-        //    return true;
-        //}
-
+    
+        
     }
 }

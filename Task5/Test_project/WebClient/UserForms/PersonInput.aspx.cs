@@ -11,18 +11,18 @@ namespace WebClient.UserForms
 {
     public partial class PersonInput : System.Web.UI.Page
     {
-        private Controller ctrl;
+        private Controller _ctrl;
         protected void Page_Load(object sender, EventArgs e)
         {
             
             HttpSessionState ss = HttpContext.Current.Session;
-            ctrl = (Controller)HttpContext.Current.Session["ctrl"];
-            if (ctrl == null)
+            _ctrl = (Controller)HttpContext.Current.Session["_ctrl"];
+            if (_ctrl == null)
             {
-                ctrl = new Controller();
+                _ctrl = new Controller();
             }
             
-            HttpContext.Current.Session["ctrl"] = ctrl;
+            HttpContext.Current.Session["_ctrl"] = _ctrl;
         }
 
         public void CreatePerson(object sender, EventArgs e)
@@ -31,8 +31,8 @@ namespace WebClient.UserForms
             string name = TextBox2.Text.Trim();
             string surname = TextBox3.Text.Trim();
             Person p = new Person(){INN = inn,Name= name,Surname = surname};
-            ctrl.Insert(p);
-            ctrl.IsRefreshNeed = true;
+            _ctrl.Insert(p);
+            _ctrl.IsRefreshNeed = true;
             Response.Redirect("WebForm1.aspx");
         }
     }

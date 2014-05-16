@@ -54,15 +54,28 @@
     <Compile Include="ConsoleDialog.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="..\ConnectionStrings.config">
+      <Link>ConnectionStrings.config</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="App.config">
       <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="NLog.config">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Test_project\DataObjects.csproj">
+    <Content Include="../ConnectionStrings.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DataObjects\DataObjects.csproj">
       <Project>{745c86ed-682e-42f2-b2ea-800328e860b1}</Project>
       <Name>DataObjects</Name>
     </ProjectReference>

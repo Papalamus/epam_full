@@ -92,7 +92,6 @@ namespace WindowsFormsApplication1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            object insertingObj;
             switch (Ctrl.ChosenEntityType)
             {
                 case Controller.EntityType.Article:
@@ -100,7 +99,6 @@ namespace WindowsFormsApplication1
                 case Controller.EntityType.Person:
                     break;
             }
-            //Ctrl.Insert();
         }
 
         private void button4_Click(object sender, EventArgs e)

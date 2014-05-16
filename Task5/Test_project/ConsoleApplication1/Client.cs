@@ -20,7 +20,7 @@ namespace ConsoleApplication1
         {
             try
             {
-                string msg = "Выберите тип объекта \n";
+                const string msg = "Выберите тип объекта \n";
                 ConsoleDialog entityChoise = new ConsoleDialog(msg);
                 bool exit = false;
 
@@ -32,23 +32,27 @@ namespace ConsoleApplication1
                     entityChoise.Run();
                 } while (!exit);
             }
-            catch (Exception e)
+            finally
             {
-                Console.WriteLine("Произошла ошибка приложение прекратит свою работу");
-                _logger.Fatal("Ошибка {0} ",e.ToString(),e.Message, e.InnerException, e.StackTrace);
-
             }
+            //catch
+            //(Exception e)
+            //{
+            //    Console.WriteLine("Произошла ошибка приложение прекратит свою работу");
+            //    _logger.Fatal("Ошибка {0} ",e.ToString(),e.Message, e.InnerException, e.StackTrace);
+
+            //}
         }
 
         public void Process<T>(IPersonConnecter<T> connecter, IInputHelper<T> inputHelper)
         {
-            string msg = "";
+            const string msg = "";
             bool exit = false;
             
             ConsoleDialog actionChoise = new ConsoleDialog(msg);
             actionChoise.Add("Вывести все", () => PrintList(connecter.GetAll()));
-            actionChoise.Add("Вставить элемент", () => connecter.Insert(inputHelper.makeObject()));
-            actionChoise.Add("Удалить элемент", () => connecter.DeletebyID(inputHelper.requestID()));
+            actionChoise.Add("Вставить элемент", () => connecter.Insert(inputHelper.MakeObject()));
+            actionChoise.Add("Удалить элемент", () => connecter.DeletebyID(inputHelper.RequestId()));
             actionChoise.Add("Получить элемент", () => GetById(connecter,inputHelper));
             actionChoise.Add("Назад", () => exit = true);
             do
@@ -59,7 +63,7 @@ namespace ConsoleApplication1
 
         private void GetById<T>(IPersonConnecter<T> connecter, IInputHelper<T> inputHelper)
         {
-            object obj = connecter.GetbyID(inputHelper.requestID());
+            object obj = connecter.GetbyID(inputHelper.RequestId());
             string msg = (obj == null) ? "Элемент с таким ID не найден":obj.ToString();
             Console.WriteLine(msg);
         }
@@ -77,7 +81,7 @@ namespace ConsoleApplication1
         public IPersonConnecter<T> SelectConnector<T>() where T : class,IAdoSaveable, new()
         {
             IPersonConnecter<T> connecter =null;
-            string msg = "Выберите тип базы данных \n";
+            const string msg = "Выберите тип базы данных \n";
             ConsoleDialog connecterChoise = new ConsoleDialog(msg);
 
             connecterChoise.Add("Orm", () => connecter = new MyOrmConnecter<T>());

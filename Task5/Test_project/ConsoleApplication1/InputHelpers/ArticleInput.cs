@@ -9,7 +9,7 @@ namespace ConsoleApplication1.InputHelpers
 {
     class ArticleInput:IInputHelper<Article>
     {
-        public Article makeObject()
+        public Article MakeObject()
         {
             return new Article()
             {
@@ -19,7 +19,7 @@ namespace ConsoleApplication1.InputHelpers
             };
         }
 
-        public object requestID()
+        public object RequestId()
         {
             return ConsoleDialog.Request<int>("Введите код статьи", Int32.TryParse);
         }

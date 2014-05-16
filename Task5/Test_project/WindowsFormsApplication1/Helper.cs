@@ -13,12 +13,12 @@ namespace WindowsFormsApplication1
 {
     class Helper
     {
-        private object inter;
+        private object _inter;
         private Type type;
 
         public Helper(object inter, Type type)
         {
-            this.inter = inter;
+            this._inter = inter;
             this.type = type;
         }
 
@@ -28,7 +28,7 @@ namespace WindowsFormsApplication1
             Type connecterType = typeof(IPersonConnecter<>).MakeGenericType(elementType);
             var methods = connecterType.GetMethods();
             object result = connecterType.InvokeMember("GetAll", BindingFlags.Public | BindingFlags.Instance| BindingFlags.IgnoreReturn
-                | BindingFlags.InvokeMethod, null, inter, new object[0]);
+                | BindingFlags.InvokeMethod, null, _inter, new object[0]);
 
             Type listType = typeof(List<>).MakeGenericType(elementType);
             List<object> list = (List<object>)result;

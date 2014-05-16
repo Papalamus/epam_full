@@ -12,17 +12,17 @@ namespace WebClient.UserForms
     public partial class ArticleInput : System.Web.UI.Page
     {
 
-        private Controller ctrl;
+        private Controller _ctrl;
         protected void Page_Load(object sender, EventArgs e)
         {
             HttpSessionState ss = HttpContext.Current.Session;
-            ctrl = (Controller)HttpContext.Current.Session["ctrl"];
-            if (ctrl == null)
+            _ctrl = (Controller)HttpContext.Current.Session["ctrl"];
+            if (_ctrl == null)
             {
-                ctrl = new Controller();
+                _ctrl = new Controller();
             }
 
-            HttpContext.Current.Session["ctrl"] = ctrl;
+            HttpContext.Current.Session["ctrl"] = _ctrl;
         }
         public void CreatePerson(object sender, EventArgs e)
         {
@@ -30,8 +30,8 @@ namespace WebClient.UserForms
             int value = int.Parse(TextBox1.Text);
             string title = TextBox3.Text.Trim();
             Article a = new Article() { ArticleCode = articleCode ,Value = value,Title = title};
-            ctrl.Insert(a);
-            ctrl.IsRefreshNeed=true;
+            _ctrl.Insert(a);
+            _ctrl.IsRefreshNeed=true;
             Response.Redirect("WebForm1.aspx");
         }
     }

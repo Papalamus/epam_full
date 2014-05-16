@@ -38,3 +38,53 @@
    в ConsoleApplication1.ConsoleDialog.Choise(String headerMsg) в c:\Для дела\Проекты\epam_training\epam_sst\Task4\Test_project\ConsoleApplication1\ConsoleDialog.cs:строка 83
    в ConsoleApplication1.ConsoleDialog.Run() в c:\Для дела\Проекты\epam_training\epam_sst\Task4\Test_project\ConsoleApplication1\ConsoleDialog.cs:строка 30
    в ConsoleApplication1.Client.SelectEntity() в c:\Для дела\Проекты\epam_training\epam_sst\Task4\Test_project\ConsoleApplication1\Client.cs:строка 32 
+04/22/2014 14:59:45|Fatal|Ошибка System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в DataObjects.DataBase.PersonConnecters.MyOrmConnecter`1.GetAll() в c:\Для дела\Проекты\epam_training\epam_sst\Task5\Test_project\Test_project\DataBase\PersonConnecters\MyOrmConnecter.cs:строка 18
+   в ConsoleApplication1.Client.<>c__DisplayClassc`1.<Process>b__7() в c:\Для дела\Проекты\epam_training\epam_sst\Task5\Test_project\ConsoleApplication1\Client.cs:строка 49
+   в ConsoleApplication1.ConsoleDialog.Choise(String headerMsg) в c:\Для дела\Проекты\epam_training\epam_sst\Task5\Test_project\ConsoleApplication1\ConsoleDialog.cs:строка 83
+   в ConsoleApplication1.ConsoleDialog.Run() в c:\Для дела\Проекты\epam_training\epam_sst\Task5\Test_project\ConsoleApplication1\ConsoleDialog.cs:строка 30
+   в ConsoleApplication1.Client.Process[T](IPersonConnecter`1 connecter, IInputHelper`1 inputHelper) в c:\Для дела\Проекты\epam_training\epam_sst\Task5\Test_project\ConsoleApplication1\Client.cs:строка 56
+   в ConsoleApplication1.Client.<SelectEntity>b__0() в c:\Для дела\Проекты\epam_training\epam_sst\Task5\Test_project\ConsoleApplication1\Client.cs:строка 27
+   в ConsoleApplication1.ConsoleDialog.Choise(String headerMsg) в c:\Для дела\Проекты\epam_training\epam_sst\Task5\Test_project\ConsoleApplication1\ConsoleDialog.cs:строка 83
+   в ConsoleApplication1.ConsoleDialog.Run() в c:\Для дела\Проекты\epam_training\epam_sst\Task5\Test_project\ConsoleApplication1\ConsoleDialog.cs:строка 30
+   в ConsoleApplication1.Client.SelectEntity() в c:\Для дела\Проекты\epam_training\epam_sst\Task5\Test_project\ConsoleApplication1\Client.cs:строка 32 
+04/22/2014 14:59:56|Fatal|Ошибка System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в DataObjects.DataBase.PersonConnecters.MyOrmConnecter`1.GetAll() в c:\Для дела\Проекты\epam_training\epam_sst\Task5\Test_project\Test_project\DataBase\PersonConnecters\MyOrmConnecter.cs:строка 18
+   в ConsoleApplication1.Client.<>c__DisplayClassc`1.<Process>b__7() в c:\Для дела\Проекты\epam_training\epam_sst\Task5\Test_project\ConsoleApplication1\Client.cs:строка 49
+   в ConsoleApplication1.ConsoleDialog.Choise(String headerMsg) в c:\Для дела\Проекты\epam_training\epam_sst\Task5\Test_project\ConsoleApplication1\ConsoleDialog.cs:строка 83
+   в ConsoleApplication1.ConsoleDialog.Run() в c:\Для дела\Проекты\epam_training\epam_sst\Task5\Test_project\ConsoleApplication1\ConsoleDialog.cs:строка 30
+   в ConsoleApplication1.Client.Process[T](IPersonConnecter`1 connecter, IInputHelper`1 inputHelper) в c:\Для дела\Проекты\epam_training\epam_sst\Task5\Test_project\ConsoleApplication1\Client.cs:строка 56
+   в ConsoleApplication1.Client.<SelectEntity>b__0() в c:\Для дела\Проекты\epam_training\epam_sst\Task5\Test_project\ConsoleApplication1\Client.cs:строка 27
+   в ConsoleApplication1.ConsoleDialog.Choise(String headerMsg) в c:\Для дела\Проекты\epam_training\epam_sst\Task5\Test_project\ConsoleApplication1\ConsoleDialog.cs:строка 83
+   в ConsoleApplication1.ConsoleDialog.Run() в c:\Для дела\Проекты\epam_training\epam_sst\Task5\Test_project\ConsoleApplication1\ConsoleDialog.cs:строка 30
+   в ConsoleApplication1.Client.SelectEntity() в c:\Для дела\Проекты\epam_training\epam_sst\Task5\Test_project\ConsoleApplication1\Client.cs:строка 32 
+04/22/2014 15:00:20|Fatal|Ошибка System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в DataObjects.DataBase.PersonConnecters.MyOrmConnecter`1.GetAll() в c:\Для дела\Проекты\epam_training\epam_sst\Task5\Test_project\Test_project\DataBase\PersonConnecters\MyOrmConnecter.cs:строка 18
+   в ConsoleApplication1.Client.<>c__DisplayClassc`1.<Process>b__7() в c:\Для дела\Проекты\epam_training\epam_sst\Task5\Test_project\ConsoleApplication1\Client.cs:строка 49
+   в ConsoleApplication1.ConsoleDialog.Choise(String headerMsg) в c:\Для дела\Проекты\epam_training\epam_sst\Task5\Test_project\ConsoleApplication1\ConsoleDialog.cs:строка 83
+   в ConsoleApplication1.ConsoleDialog.Run() в c:\Для дела\Проекты\epam_training\epam_sst\Task5\Test_project\ConsoleApplication1\ConsoleDialog.cs:строка 30
+   в ConsoleApplication1.Client.Process[T](IPersonConnecter`1 connecter, IInputHelper`1 inputHelper) в c:\Для дела\Проекты\epam_training\epam_sst\Task5\Test_project\ConsoleApplication1\Client.cs:строка 56
+   в ConsoleApplication1.Client.<SelectEntity>b__0() в c:\Для дела\Проекты\epam_training\epam_sst\Task5\Test_project\ConsoleApplication1\Client.cs:строка 27
+   в ConsoleApplication1.ConsoleDialog.Choise(String headerMsg) в c:\Для дела\Проекты\epam_training\epam_sst\Task5\Test_project\ConsoleApplication1\ConsoleDialog.cs:строка 83
+   в ConsoleApplication1.ConsoleDialog.Run() в c:\Для дела\Проекты\epam_training\epam_sst\Task5\Test_project\ConsoleApplication1\ConsoleDialog.cs:строка 30
+   в ConsoleApplication1.Client.SelectEntity() в c:\Для дела\Проекты\epam_training\epam_sst\Task5\Test_project\ConsoleApplication1\Client.cs:строка 32 
+04/22/2014 15:04:41|Fatal|Ошибка System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в DataObjects.DataBase.PersonConnecters.MyOrmConnecter`1.GetAll() в c:\Для дела\Проекты\epam_training\epam_sst\Task5\Test_project\Test_project\DataBase\PersonConnecters\MyOrmConnecter.cs:строка 18
+   в ConsoleApplication1.Client.<>c__DisplayClassc`1.<Process>b__7() в c:\Для дела\Проекты\epam_training\epam_sst\Task5\Test_project\ConsoleApplication1\Client.cs:строка 49
+   в ConsoleApplication1.ConsoleDialog.Choise(String headerMsg) в c:\Для дела\Проекты\epam_training\epam_sst\Task5\Test_project\ConsoleApplication1\ConsoleDialog.cs:строка 83
+   в ConsoleApplication1.ConsoleDialog.Run() в c:\Для дела\Проекты\epam_training\epam_sst\Task5\Test_project\ConsoleApplication1\ConsoleDialog.cs:строка 30
+   в ConsoleApplication1.Client.Process[T](IPersonConnecter`1 connecter, IInputHelper`1 inputHelper) в c:\Для дела\Проекты\epam_training\epam_sst\Task5\Test_project\ConsoleApplication1\Client.cs:строка 56
+   в ConsoleApplication1.Client.<SelectEntity>b__0() в c:\Для дела\Проекты\epam_training\epam_sst\Task5\Test_project\ConsoleApplication1\Client.cs:строка 27
+   в ConsoleApplication1.ConsoleDialog.Choise(String headerMsg) в c:\Для дела\Проекты\epam_training\epam_sst\Task5\Test_project\ConsoleApplication1\ConsoleDialog.cs:строка 83
+   в ConsoleApplication1.ConsoleDialog.Run() в c:\Для дела\Проекты\epam_training\epam_sst\Task5\Test_project\ConsoleApplication1\ConsoleDialog.cs:строка 30
+   в ConsoleApplication1.Client.SelectEntity() в c:\Для дела\Проекты\epam_training\epam_sst\Task5\Test_project\ConsoleApplication1\Client.cs:строка 32 
+04/22/2014 15:04:49|Fatal|Ошибка System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в DataObjects.DataBase.PersonConnecters.MyOrmConnecter`1.GetAll() в c:\Для дела\Проекты\epam_training\epam_sst\Task5\Test_project\Test_project\DataBase\PersonConnecters\MyOrmConnecter.cs:строка 18
+   в ConsoleApplication1.Client.<>c__DisplayClassc`1.<Process>b__7() в c:\Для дела\Проекты\epam_training\epam_sst\Task5\Test_project\ConsoleApplication1\Client.cs:строка 49
+   в ConsoleApplication1.ConsoleDialog.Choise(String headerMsg) в c:\Для дела\Проекты\epam_training\epam_sst\Task5\Test_project\ConsoleApplication1\ConsoleDialog.cs:строка 83
+   в ConsoleApplication1.ConsoleDialog.Run() в c:\Для дела\Проекты\epam_training\epam_sst\Task5\Test_project\ConsoleApplication1\ConsoleDialog.cs:строка 30
+   в ConsoleApplication1.Client.Process[T](IPersonConnecter`1 connecter, IInputHelper`1 inputHelper) в c:\Для дела\Проекты\epam_training\epam_sst\Task5\Test_project\ConsoleApplication1\Client.cs:строка 56
+   в ConsoleApplication1.Client.<SelectEntity>b__0() в c:\Для дела\Проекты\epam_training\epam_sst\Task5\Test_project\ConsoleApplication1\Client.cs:строка 27
+   в ConsoleApplication1.ConsoleDialog.Choise(String headerMsg) в c:\Для дела\Проекты\epam_training\epam_sst\Task5\Test_project\ConsoleApplication1\ConsoleDialog.cs:строка 83
+   в ConsoleApplication1.ConsoleDialog.Run() в c:\Для дела\Проекты\epam_training\epam_sst\Task5\Test_project\ConsoleApplication1\ConsoleDialog.cs:строка 30
+   в ConsoleApplication1.Client.SelectEntity() в c:\Для дела\Проекты\epam_training\epam_sst\Task5\Test_project\ConsoleApplication1\Client.cs:строка 32 

@@ -20,8 +20,8 @@ namespace WebClient
      
     public class Controller
     {
-        private IPersonConnecter<Person> pc;
-        private IPersonConnecter<Article> ac;
+        private IPersonConnecter<Person> _pc;
+        private IPersonConnecter<Article> _ac;
         private bool _isRefreshNeed = true;
         public bool IsRefreshNeed
         {
@@ -40,22 +40,22 @@ namespace WebClient
         public IPersonConnecter<Person> PC
         {
             get {
-                if (pc == null)
+                if (_pc == null)
                 {
-                    pc = MakeConnecter<Person>();         
+                    _pc = MakeConnecter<Person>();         
                 }
-                return pc;
+                return _pc;
             }
         }
         public IPersonConnecter<Article> AC
         {
             get
             {
-                if (ac == null)
+                if (_ac == null)
                 {
-                    ac = MakeConnecter<Article>();
+                    _ac = MakeConnecter<Article>();
                 }
-                return ac;
+                return _ac;
             }
         }
 
@@ -68,10 +68,10 @@ namespace WebClient
                 switch (ChosenEntity)
                 {
                     case EntityType.Article:
-                        ac = null;
+                        _ac = null;
                         break;
                     case EntityType.Person:
-                        pc = null;
+                        _pc = null;
                         break;
                 }
             }

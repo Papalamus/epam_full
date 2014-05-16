@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Data.Common;
 using System.Dynamic;
@@ -19,13 +20,34 @@ namespace Test_project.DataBase.PersonConnecters
 
         public void DeleteObject(Type type, object ID)
         {
-            MappedType mt;
-            MappedTypes.TryGetValue(type, out mt);
             CustomizeCommandHandler deleteQuery = commandMaker.DeleteCommand(mt, ID);
             adoHelper.ExequteNonQuery(deleteQuery);
         }
 
-        internal class MappedType
+        
+
+        public bool Insert(Type type, object value)
+        {
+            MappedType mapeeType = getMappedType(type);
+            CustomizeCommandHandler insertCommand = commandMaker.InsertCommand(mapeeType, value);
+            adoHelper.ExequteNonQuery(insertCommand)
+            //command =>
+            //{
+            //    command.CommandText = MakeInsertString(p);
+            //});
+            return true;
+        }
+
+        private MappedType getMappedType(Type type)
+        {
+            MappedType mt;
+            //Todo Проверить что будет если не тип ранее не был размаплен
+            MappedTypes.TryGetValue(type, out mt);
+            return mt;
+        }
+
+
+        internal class MappedType : IEnumerable<KeyValuePair<string, MemberInfo>>
         {
             public Dictionary<string, MemberInfo> MappedMembers { get; private set; }
         
@@ -68,7 +90,24 @@ namespace Test_project.DataBase.PersonConnecters
                     }
                 }
             }
-            
+
+            public int Count
+            {
+                get
+                {
+                    return MappedMembers.Count;
+                }
+            }
+
+            IEnumerator<KeyValuePair<string, MemberInfo>> IEnumerable<KeyValuePair<string, MemberInfo>>.GetEnumerator()
+            {
+                return MappedMembers.GetEnumerator();
+            }
+
+            IEnumerator IEnumerable.GetEnumerator()
+            {
+                return MappedMembers.GetEnumerator();
+            }
         }
 
 

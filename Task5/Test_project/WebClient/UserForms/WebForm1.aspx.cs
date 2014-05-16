@@ -14,22 +14,22 @@ namespace WebClient
 {
     public partial class WebForm1 : System.Web.UI.Page
     {
-        private Controller ctrl;
+        private Controller _ctrl;
         protected void Page_Load(object sender, EventArgs e)
         {
             HttpSessionState ss = HttpContext.Current.Session;
-            ctrl = (Controller)HttpContext.Current.Session["ctrl"];
-            if (ctrl == null)
+            _ctrl = (Controller)HttpContext.Current.Session["_ctrl"];
+            if (_ctrl == null)
             {
-                ctrl = new Controller();
+                _ctrl = new Controller();
             }
-            if (ctrl.IsRefreshNeed)
+            if (_ctrl.IsRefreshNeed)
             {
-                GridView1.DataSource = ctrl.GetAll();
+                GridView1.DataSource = _ctrl.GetAll();
                 GridView1.DataBind();
             }
             
-            HttpContext.Current.Session["ctrl"] = ctrl;
+            HttpContext.Current.Session["_ctrl"] = _ctrl;
         }
 
         public void ChangeEntity(object sender, EventArgs e)
@@ -38,13 +38,13 @@ namespace WebClient
             switch (anchor.Name)
             {
                 case "Person":
-                    ctrl.ChosenEntity = EntityType.Person;
+                    _ctrl.ChosenEntity = EntityType.Person;
                     break;
                 case "Article":
-                    ctrl.ChosenEntity = EntityType.Article;
+                    _ctrl.ChosenEntity = EntityType.Article;
                     break;
             }
-            HttpContext.Current.Session["ctrl"] = ctrl;
+            HttpContext.Current.Session["_ctrl"] = _ctrl;
             RefreshPage();
         }
 
@@ -54,25 +54,25 @@ namespace WebClient
             switch (anchor.Name)
             {
                 case "Ado":
-                    ctrl.ChosenConnecter = ConnecterType.ADO;
+                    _ctrl.ChosenConnecter = ConnecterType.ADO;
                     break;
                 case "MyORM":
-                    ctrl.ChosenConnecter = ConnecterType.MyORM;
+                    _ctrl.ChosenConnecter = ConnecterType.MyORM;
                     break;
             }
-            HttpContext.Current.Session["ctrl"] = ctrl;
+            HttpContext.Current.Session["_ctrl"] = _ctrl;
             RefreshPage();
         }
 
         public void GetAll(object sender, EventArgs e)
         {
-            GridView1.DataSource = ctrl.GetAll();
+            GridView1.DataSource = _ctrl.GetAll();
             GridView1.DataBind();
         }
 
         public void RedirectOnInput(object sender, EventArgs e)
         {
-            switch (ctrl.ChosenEntity)
+            switch (_ctrl.ChosenEntity)
             {
                case EntityType.Article:
                     HttpContext.Current.Response.Redirect("ArticleInput.aspx");
@@ -85,7 +85,7 @@ namespace WebClient
 
         private void RefreshPage()
         {
-            ctrl.IsRefreshNeed = true;
+            _ctrl.IsRefreshNeed = true;
             HttpContext.Current.Response.Redirect(HttpContext.Current.Request.Url.ToString());
         }
     }

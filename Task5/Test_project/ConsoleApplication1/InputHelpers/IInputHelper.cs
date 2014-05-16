@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApplication1
+namespace ConsoleApplication1.InputHelpers
 {
-    interface IInputHelper<T>
+    interface IInputHelper<out T>
     {
-        T makeObject();
-        object requestID();
+        T MakeObject();
+        object RequestId();
     }
 }
