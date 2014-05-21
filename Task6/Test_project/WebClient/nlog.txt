@@ -1,0 +1,102 @@
+04/17/2014 13:00:05|Fatal|Ошибка System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в DataObjects.DataBase.PersonConnecters.AdoHelper..ctor() в c:\Для дела\Проекты\epam_training\epam_sst\Task4\Test_project\Test_project\DataBase\PersonConnecters\AdoHelper.cs:строка 26
+04/17/2014 13:01:47|Fatal|Ошибка System.Configuration.ConfigurationErrorsException: Не удалось прочитать connectionString, необходимые для соединения с базой данных  ---> System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в DataObjects.DataBase.PersonConnecters.AdoHelper..ctor() в c:\Для дела\Проекты\epam_training\epam_sst\Task4\Test_project\Test_project\DataBase\PersonConnecters\AdoHelper.cs:строка 26
+   --- Конец трассировки внутреннего стека исключений ---
+   в DataObjects.DataBase.PersonConnecters.AdoHelper..ctor() в c:\Для дела\Проекты\epam_training\epam_sst\Task4\Test_project\Test_project\DataBase\PersonConnecters\AdoHelper.cs:строка 32
+   в DataObjects.DataBase.PersonConnecters.MyOrmConnecter`1..ctor() в c:\Для дела\Проекты\epam_training\epam_sst\Task4\Test_project\Test_project\DataBase\PersonConnecters\MyOrmConnecter.cs:строка 27
+   в WebClient.Controller.MakeConnecter[T]() в c:\Для дела\Проекты\epam_training\epam_sst\Task4\Test_project\WebClient\Controller.cs:строка 90
+   в WebClient.Controller.get_PC() в c:\Для дела\Проекты\epam_training\epam_sst\Task4\Test_project\WebClient\Controller.cs:строка 45
+   в WebClient.Controller.GetAll() в c:\Для дела\Проекты\epam_training\epam_sst\Task4\Test_project\WebClient\Controller.cs:строка 107
+   в WebClient.WebForm1.Page_Load(Object sender, EventArgs e) в c:\Для дела\Проекты\epam_training\epam_sst\Task4\Test_project\WebClient\UserForms\WebForm1.aspx.cs:строка 28
+   в System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   в System.Web.UI.Control.OnLoad(EventArgs e)
+   в System.Web.UI.Control.LoadRecursive()
+   в System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   в System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   в System.Web.UI.Page.ProcessRequest()
+   в System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   в System.Web.UI.Page.ProcessRequest(HttpContext context)
+   в ASP.userforms_webform1_aspx.ProcessRequest(HttpContext context) в c:\Users\Константин\AppData\Local\Temp\Temporary ASP.NET Files\root\f9df5a4f\68ecd8da\App_Web_ogalayt2.1.cs:строка 0
+   в System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   в System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+04/18/2014 18:03:45|Fatal|Ошибка System.Configuration.ConfigurationErrorsException: Не удалось прочитать connectionString, необходимые для соединения с базой данных  ---> System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в DataObjects.DataBase.PersonConnecters.AdoHelper..ctor() в c:\Для дела\Проекты\epam_training\epam_sst\Task4\Test_project\Test_project\DataBase\PersonConnecters\AdoHelper.cs:строка 26
+   --- Конец трассировки внутреннего стека исключений ---
+   в DataObjects.DataBase.PersonConnecters.AdoHelper..ctor() в c:\Для дела\Проекты\epam_training\epam_sst\Task4\Test_project\Test_project\DataBase\PersonConnecters\AdoHelper.cs:строка 32
+   в DataObjects.DataBase.PersonConnecters.MyOrmConnecter`1..ctor() в c:\Для дела\Проекты\epam_training\epam_sst\Task4\Test_project\Test_project\DataBase\PersonConnecters\MyOrmConnecter.cs:строка 27
+   в WebClient.Controller.MakeConnecter[T]() в c:\Для дела\Проекты\epam_training\epam_sst\Task4\Test_project\WebClient\Controller.cs:строка 90
+   в WebClient.Controller.get_PC() в c:\Для дела\Проекты\epam_training\epam_sst\Task4\Test_project\WebClient\Controller.cs:строка 45
+   в WebClient.Controller.GetAll() в c:\Для дела\Проекты\epam_training\epam_sst\Task4\Test_project\WebClient\Controller.cs:строка 107
+   в WebClient.WebForm1.Page_Load(Object sender, EventArgs e) в c:\Для дела\Проекты\epam_training\epam_sst\Task4\Test_project\WebClient\UserForms\WebForm1.aspx.cs:строка 28
+   в System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   в System.Web.UI.Control.OnLoad(EventArgs e)
+   в System.Web.UI.Control.LoadRecursive()
+   в System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   в System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   в System.Web.UI.Page.ProcessRequest()
+   в System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   в System.Web.UI.Page.ProcessRequest(HttpContext context)
+   в ASP.userforms_webform1_aspx.ProcessRequest(HttpContext context) в c:\Users\Константин\AppData\Local\Temp\Temporary ASP.NET Files\root\f9df5a4f\68ecd8da\App_Web_caryphfg.2.cs:строка 0
+   в System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   в System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+04/18/2014 18:04:32|Fatal|Ошибка System.Configuration.ConfigurationErrorsException: Не удалось прочитать connectionString, необходимые для соединения с базой данных  ---> System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в DataObjects.DataBase.PersonConnecters.AdoHelper..ctor() в c:\Для дела\Проекты\epam_training\epam_sst\Task4\Test_project\Test_project\DataBase\PersonConnecters\AdoHelper.cs:строка 26
+   --- Конец трассировки внутреннего стека исключений ---
+   в DataObjects.DataBase.PersonConnecters.AdoHelper..ctor() в c:\Для дела\Проекты\epam_training\epam_sst\Task4\Test_project\Test_project\DataBase\PersonConnecters\AdoHelper.cs:строка 32
+   в DataObjects.DataBase.PersonConnecters.MyOrmConnecter`1..ctor() в c:\Для дела\Проекты\epam_training\epam_sst\Task4\Test_project\Test_project\DataBase\PersonConnecters\MyOrmConnecter.cs:строка 27
+   в WebClient.Controller.MakeConnecter[T]() в c:\Для дела\Проекты\epam_training\epam_sst\Task4\Test_project\WebClient\Controller.cs:строка 90
+   в WebClient.Controller.get_PC() в c:\Для дела\Проекты\epam_training\epam_sst\Task4\Test_project\WebClient\Controller.cs:строка 45
+   в WebClient.Controller.GetAll() в c:\Для дела\Проекты\epam_training\epam_sst\Task4\Test_project\WebClient\Controller.cs:строка 107
+   в WebClient.WebForm1.Page_Load(Object sender, EventArgs e) в c:\Для дела\Проекты\epam_training\epam_sst\Task4\Test_project\WebClient\UserForms\WebForm1.aspx.cs:строка 28
+   в System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   в System.Web.UI.Control.OnLoad(EventArgs e)
+   в System.Web.UI.Control.LoadRecursive()
+   в System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   в System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   в System.Web.UI.Page.ProcessRequest()
+   в System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   в System.Web.UI.Page.ProcessRequest(HttpContext context)
+   в ASP.userforms_webform1_aspx.ProcessRequest(HttpContext context) в c:\Users\Константин\AppData\Local\Temp\Temporary ASP.NET Files\root\f9df5a4f\68ecd8da\App_Web_caryphfg.2.cs:строка 0
+   в System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   в System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+04/18/2014 18:07:06|Fatal|Ошибка System.Configuration.ConfigurationErrorsException: Не удалось прочитать connectionString, необходимые для соединения с базой данных  ---> System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в DataObjects.DataBase.PersonConnecters.AdoHelper..ctor() в c:\Для дела\Проекты\epam_training\epam_sst\Task4\Test_project\Test_project\DataBase\PersonConnecters\AdoHelper.cs:строка 26
+   --- Конец трассировки внутреннего стека исключений ---
+   в DataObjects.DataBase.PersonConnecters.AdoHelper..ctor() в c:\Для дела\Проекты\epam_training\epam_sst\Task4\Test_project\Test_project\DataBase\PersonConnecters\AdoHelper.cs:строка 32
+   в DataObjects.DataBase.PersonConnecters.MyOrmConnecter`1..ctor() в c:\Для дела\Проекты\epam_training\epam_sst\Task4\Test_project\Test_project\DataBase\PersonConnecters\MyOrmConnecter.cs:строка 27
+   в WebClient.Controller.MakeConnecter[T]() в c:\Для дела\Проекты\epam_training\epam_sst\Task4\Test_project\WebClient\Controller.cs:строка 90
+   в WebClient.Controller.get_PC() в c:\Для дела\Проекты\epam_training\epam_sst\Task4\Test_project\WebClient\Controller.cs:строка 45
+   в WebClient.Controller.GetAll() в c:\Для дела\Проекты\epam_training\epam_sst\Task4\Test_project\WebClient\Controller.cs:строка 107
+   в WebClient.WebForm1.Page_Load(Object sender, EventArgs e) в c:\Для дела\Проекты\epam_training\epam_sst\Task4\Test_project\WebClient\UserForms\WebForm1.aspx.cs:строка 28
+   в System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   в System.Web.UI.Control.OnLoad(EventArgs e)
+   в System.Web.UI.Control.LoadRecursive()
+   в System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   в System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   в System.Web.UI.Page.ProcessRequest()
+   в System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   в System.Web.UI.Page.ProcessRequest(HttpContext context)
+   в ASP.userforms_webform1_aspx.ProcessRequest(HttpContext context) в c:\Users\Константин\AppData\Local\Temp\Temporary ASP.NET Files\root\f9df5a4f\68ecd8da\App_Web_caryphfg.2.cs:строка 0
+   в System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   в System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+04/18/2014 18:07:47|Fatal|Ошибка System.Configuration.ConfigurationErrorsException: Не удалось прочитать connectionString, необходимые для соединения с базой данных  ---> System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в DataObjects.DataBase.PersonConnecters.AdoHelper..ctor() в c:\Для дела\Проекты\epam_training\epam_sst\Task4\Test_project\Test_project\DataBase\PersonConnecters\AdoHelper.cs:строка 26
+   --- Конец трассировки внутреннего стека исключений ---
+   в DataObjects.DataBase.PersonConnecters.AdoHelper..ctor() в c:\Для дела\Проекты\epam_training\epam_sst\Task4\Test_project\Test_project\DataBase\PersonConnecters\AdoHelper.cs:строка 32
+   в DataObjects.DataBase.PersonConnecters.MyOrmConnecter`1..ctor() в c:\Для дела\Проекты\epam_training\epam_sst\Task4\Test_project\Test_project\DataBase\PersonConnecters\MyOrmConnecter.cs:строка 27
+   в WebClient.Controller.MakeConnecter[T]() в c:\Для дела\Проекты\epam_training\epam_sst\Task4\Test_project\WebClient\Controller.cs:строка 90
+   в WebClient.Controller.get_PC() в c:\Для дела\Проекты\epam_training\epam_sst\Task4\Test_project\WebClient\Controller.cs:строка 45
+   в WebClient.Controller.GetAll() в c:\Для дела\Проекты\epam_training\epam_sst\Task4\Test_project\WebClient\Controller.cs:строка 107
+   в WebClient.WebForm1.Page_Load(Object sender, EventArgs e) в c:\Для дела\Проекты\epam_training\epam_sst\Task4\Test_project\WebClient\UserForms\WebForm1.aspx.cs:строка 28
+   в System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   в System.Web.UI.Control.OnLoad(EventArgs e)
+   в System.Web.UI.Control.LoadRecursive()
+   в System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   в System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   в System.Web.UI.Page.ProcessRequest()
+   в System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   в System.Web.UI.Page.ProcessRequest(HttpContext context)
+   в ASP.userforms_webform1_aspx.ProcessRequest(HttpContext context) в c:\Users\Константин\AppData\Local\Temp\Temporary ASP.NET Files\root\f9df5a4f\68ecd8da\App_Web_caryphfg.2.cs:строка 0
+   в System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   в System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)

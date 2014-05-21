@@ -1,0 +1,9 @@
+C:\Для дела\Проекты\epam_training\epam_sst\Task6\Test_project\Containers\bin\Debug\Containers.pdb
+C:\Для дела\Проекты\epam_training\epam_sst\Task6\Test_project\Containers\bin\Debug\Castle.Core.dll
+C:\Для дела\Проекты\epam_training\epam_sst\Task6\Test_project\Containers\bin\Debug\Castle.Windsor.dll
+C:\Для дела\Проекты\epam_training\epam_sst\Task6\Test_project\Containers\bin\Debug\Castle.Core.xml
+C:\Для дела\Проекты\epam_training\epam_sst\Task6\Test_project\Containers\bin\Debug\Castle.Windsor.xml
+C:\Для дела\Проекты\epam_training\epam_sst\Task6\Test_project\Containers\obj\Debug\Containers.csprojResolveAssemblyReference.cache
+C:\Для дела\Проекты\epam_training\epam_sst\Task6\Test_project\Containers\obj\Debug\Containers.pdb
+C:\Для дела\Проекты\epam_training\epam_sst\Task6\Test_project\Containers\bin\Debug\Containers.exe
+C:\Для дела\Проекты\epam_training\epam_sst\Task6\Test_project\Containers\obj\Debug\Containers.exe

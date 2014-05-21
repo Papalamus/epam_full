@@ -33,3 +33,4 @@ C:\Для дела\Проекты\epam_training\epam_sst\Task5\Test_project\Data
 C:\Для дела\Проекты\epam_training\epam_sst\Task5\Test_project\DataObjects\bin\Debug\nunit.framework.xml
 C:\Для дела\Проекты\epam_training\epam_sst\Task5\Test_project\DataObjects\obj\Debug\Test_project.exe
 C:\Для дела\Проекты\epam_training\epam_sst\Task5\Test_project\DataObjects\obj\Debug\Test_project.pdb
+C:\Для дела\Проекты\epam_training\epam_sst\Task5\Test_project\DataObjects\obj\Debug\DataObjects.csprojResolveAssemblyReference.cache

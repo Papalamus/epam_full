@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DataObjects.DataBase.Interface
 {
-    interface IEntityConnector:IPersonConnecter<object>
+    interface IEntityConnecter:IPersonConnecter<object>
     {
     }
 }

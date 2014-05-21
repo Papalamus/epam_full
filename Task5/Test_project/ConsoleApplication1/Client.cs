@@ -9,6 +9,7 @@ using DataObjects.Entities;
 using DataObjects.DataBase.Interface;
 using DataObjects.DataBase.PersonConnecters;
 using NLog;
+using Test_project.DataBase.PersonConnecters;
 
 namespace ConsoleApplication1
 {
@@ -84,7 +85,7 @@ namespace ConsoleApplication1
             const string msg = "Выберите тип базы данных \n";
             ConsoleDialog connecterChoise = new ConsoleDialog(msg);
 
-            connecterChoise.Add("Orm", () => connecter = new MyOrmConnecter<T>());
+            connecterChoise.Add("Orm", () => connecter = MyOrmBase.GetInstance().GetConnecter<T>());
             connecterChoise.Add("Простой Ado.net", () => connecter = new AdoConnecter<T>());
 
             connecterChoise.Run();
