@@ -101,7 +101,6 @@
     <Compile Include="DataBase\Interface\IAdoSaveable.cs" />
     <Compile Include="Entities\Person.cs" />
     <Compile Include="DataBase\Interface\IPersonConnecter.cs" />
-    <Compile Include="DataBase\NUnitTests.cs" />
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>

@@ -1,16 +1,14 @@
-﻿
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 using System.Xml.Serialization;
+using DataObjects.DataBase;
 using DataObjects.DataBase.Interface;
 using DataObjects.Entities;
 using NUnit.Framework;
 
-namespace DataObjects.DataBase
+namespace SolutionTests
 {
     [TestFixture]
     public class NUnitTests
