@@ -115,13 +115,14 @@ namespace WindowsFormsApplication1
 
         private IPersonConnecter<T> MakeConnecter<T>() where T : class, IAdoSaveable, new()
         {
-            switch (ChosenConnecterType)
-            {
-                case ConnecterType.ADO:
-                    return new AdoConnecter<T>();
-                case ConnecterType.MyORM:
-                    return new MyOrmConnecter<T>();
-            }
+            //TODO Исправить ошибку
+            //switch (ChosenConnecterType)
+            //{
+            //    case ConnecterType.ADO:
+            //        return new AdoConnecter<T>();
+            //    case ConnecterType.MyORM:
+            //       return new MyOrmConnecter<T>();
+            //}
             return null;
         }
 

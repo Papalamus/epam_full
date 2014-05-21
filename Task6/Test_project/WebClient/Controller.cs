@@ -87,7 +87,7 @@ namespace WebClient
                 case ConnecterType.ADO:
                     return new AdoConnecter<T>();
                 case ConnecterType.MyORM:
-                    return new MyOrmConnecter<T>();
+                   // return new MyOrmConnecter<T>();
                 default:
                     return null;
             }
