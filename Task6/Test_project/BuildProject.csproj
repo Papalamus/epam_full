@@ -4,6 +4,6 @@
   </ItemGroup>
   
   <Target Name="Build">
-	<Csc Sources="@(Compile)"/>
+	<MSBuild Sources="@(Compile)"/>
   </Target>
 </Project>
