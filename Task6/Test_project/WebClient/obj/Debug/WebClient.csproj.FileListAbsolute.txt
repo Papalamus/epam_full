@@ -63,11 +63,9 @@ C:\Для дела\Проекты\epam_training\epam_sst\Task6\Test_project\WebC
 C:\Для дела\Проекты\epam_training\epam_sst\Task6\Test_project\WebClient\bin\Microsoft.Web.Infrastructure.dll
 C:\Для дела\Проекты\epam_training\epam_sst\Task6\Test_project\WebClient\bin\NLog.dll
 C:\Для дела\Проекты\epam_training\epam_sst\Task6\Test_project\WebClient\bin\Test_project.exe
-C:\Для дела\Проекты\epam_training\epam_sst\Task6\Test_project\WebClient\bin\nunit.framework.dll
 C:\Для дела\Проекты\epam_training\epam_sst\Task6\Test_project\WebClient\bin\Test_project.pdb
 C:\Для дела\Проекты\epam_training\epam_sst\Task6\Test_project\WebClient\bin\Castle.Core.xml
 C:\Для дела\Проекты\epam_training\epam_sst\Task6\Test_project\WebClient\bin\Castle.Windsor.xml
 C:\Для дела\Проекты\epam_training\epam_sst\Task6\Test_project\WebClient\bin\NLog.xml
 C:\Для дела\Проекты\epam_training\epam_sst\Task6\Test_project\WebClient\bin\Microsoft.Web.Infrastructure.xml
-C:\Для дела\Проекты\epam_training\epam_sst\Task6\Test_project\WebClient\bin\nunit.framework.xml
 C:\Для дела\Проекты\epam_training\epam_sst\Task6\Test_project\WebClient\obj\Debug\WebClient.pdb

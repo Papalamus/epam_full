@@ -52,10 +52,8 @@ C:\Для дела\Проекты\epam_training\epam_sst\Task6\Test_project\Cons
 C:\Для дела\Проекты\epam_training\epam_sst\Task6\Test_project\ConsoleApplication1\bin\Debug\Castle.Windsor.dll
 C:\Для дела\Проекты\epam_training\epam_sst\Task6\Test_project\ConsoleApplication1\bin\Debug\NLog.dll
 C:\Для дела\Проекты\epam_training\epam_sst\Task6\Test_project\ConsoleApplication1\bin\Debug\Test_project.exe
-C:\Для дела\Проекты\epam_training\epam_sst\Task6\Test_project\ConsoleApplication1\bin\Debug\nunit.framework.dll
 C:\Для дела\Проекты\epam_training\epam_sst\Task6\Test_project\ConsoleApplication1\bin\Debug\Test_project.pdb
 C:\Для дела\Проекты\epam_training\epam_sst\Task6\Test_project\ConsoleApplication1\bin\Debug\Castle.Core.xml
 C:\Для дела\Проекты\epam_training\epam_sst\Task6\Test_project\ConsoleApplication1\bin\Debug\Castle.Windsor.xml
 C:\Для дела\Проекты\epam_training\epam_sst\Task6\Test_project\ConsoleApplication1\bin\Debug\NLog.xml
-C:\Для дела\Проекты\epam_training\epam_sst\Task6\Test_project\ConsoleApplication1\bin\Debug\nunit.framework.xml
 C:\Для дела\Проекты\epam_training\epam_sst\Task6\Test_project\ConsoleApplication1\obj\Debug\ConsoleClient.csprojResolveAssemblyReference.cache
