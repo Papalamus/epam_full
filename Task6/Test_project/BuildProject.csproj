@@ -1,6 +1,6 @@
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Compile Include="**\*proj" Exclude="$(MSBuildProjectFile)"/>
+    <Compile Include="Test_project.sln"/>
   </ItemGroup>
   
   <Target Name="Build">
