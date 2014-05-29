@@ -1,0 +1,8 @@
+C:\Для дела\Проекты\epam_training\epam_sst\Task6\Test_project\MyLogger\bin\Debug\MyLogger.dll
+C:\Для дела\Проекты\epam_training\epam_sst\Task6\Test_project\MyLogger\bin\Debug\MyLogger.pdb
+C:\Для дела\Проекты\epam_training\epam_sst\Task6\Test_project\MyLogger\obj\Debug\MyLogger.csprojResolveAssemblyReference.cache
+C:\Для дела\Проекты\epam_training\epam_sst\Task6\Test_project\MyLogger\obj\Debug\MyLogger.dll
+C:\Для дела\Проекты\epam_training\epam_sst\Task6\Test_project\MyLogger\obj\Debug\MyLogger.pdb
+C:\Для дела\Проекты\epam_training\epam_sst\Task6\Test_project\MyLogger\bin\Debug\NLog.config
+C:\Для дела\Проекты\epam_training\epam_sst\Task6\Test_project\MyLogger\bin\Debug\NLog.dll
+C:\Для дела\Проекты\epam_training\epam_sst\Task6\Test_project\MyLogger\bin\Debug\NLog.xml

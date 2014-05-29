@@ -1,0 +1,9 @@
+C:\Для дела\Проекты\epam_training\epam_system\Test_project\Test_project\bin\Debug\DataBase\Database1.sdf
+C:\Для дела\Проекты\epam_training\epam_system\Test_project\Test_project\bin\Debug\Test_project.exe.config
+C:\Для дела\Проекты\epam_training\epam_system\Test_project\Test_project\bin\Debug\Test_project.exe
+C:\Для дела\Проекты\epam_training\epam_system\Test_project\Test_project\bin\Debug\Test_project.pdb
+C:\Для дела\Проекты\epam_training\epam_system\Test_project\Test_project\bin\Debug\nunit.framework.dll
+C:\Для дела\Проекты\epam_training\epam_system\Test_project\Test_project\bin\Debug\nunit.framework.xml
+C:\Для дела\Проекты\epam_training\epam_system\Test_project\Test_project\obj\Debug\Test_project.exe
+C:\Для дела\Проекты\epam_training\epam_system\Test_project\Test_project\obj\Debug\Test_project.pdb
+C:\Для дела\Проекты\epam_training\epam_system\Test_project\Test_project\obj\Debug\Test_project.csprojResolveAssemblyReference.cache
