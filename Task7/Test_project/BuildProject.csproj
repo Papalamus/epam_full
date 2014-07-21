@@ -4,7 +4,7 @@
   </ItemGroup>
   
   <PropertyGroup>
-    <ApplicationOutputDirectory>Task7</ApplicationOutputDirectory>
+    <ApplicationOutputDirectory Include ="*"/>
   </PropertyGroup>
   
   <Target Name="Build">
