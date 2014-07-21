@@ -26,14 +26,22 @@ namespace WebClient
             }
             if (_ctrl.IsRefreshNeed)
             {
-                TableMaker.MakeTable(_ctrl.GetAll(), Table1);
-                Table1.Visible = true;
+                DisplayTable(_ctrl.GetAll(),Table1);
             }
 
-            
-
-
             HttpContext.Current.Session["_ctrl"] = _ctrl;
+        }
+
+        private void DisplayTable( List<object> toDisplay,Table table)
+        {
+            if (toDisplay.Count != 0)
+            {
+                Type type = toDisplay[0].GetType();
+                TableMaker tm = new TableMaker(type);
+
+                tm.MakeTable(toDisplay, table);
+                table.Visible = true;
+            }
         }
 
         public void ChangeEntity(object sender, EventArgs e)
@@ -70,11 +78,7 @@ namespace WebClient
 
         public void GetAll(object sender, EventArgs e)
         {
-            //GridView1.DataSource = _ctrl.GetAll();
-            TableMaker.MakeTable(_ctrl.GetAll(), Table1);
-            Table1.Visible = true;
-            //GridView1.DataSource = resultTable;
-            //GridView1.DataBind();
+            DisplayTable(_ctrl.GetAll(),Table1);
         }
 
         public void RedirectOnInput(object sender, EventArgs e)

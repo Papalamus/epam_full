@@ -10,3 +10,15 @@ C:\Для дела\Проекты\epam_training\epam_sst\Task6\Test_project\Solu
 C:\Для дела\Проекты\epam_training\epam_sst\Task6\Test_project\SolutionTests\obj\Debug\SolutionTests.csprojResolveAssemblyReference.cache
 C:\Для дела\Проекты\epam_training\epam_sst\Task6\Test_project\SolutionTests\obj\Debug\SolutionTests.dll
 C:\Для дела\Проекты\epam_training\epam_sst\Task6\Test_project\SolutionTests\obj\Debug\SolutionTests.pdb
+C:\Для дела\Проекты\epam_training\epam_sst\Task7\Test_project\SolutionTests\bin\Debug\DataBase\Database1.sdf
+C:\Для дела\Проекты\epam_training\epam_sst\Task7\Test_project\SolutionTests\bin\Debug\ConnectionStrings.config
+C:\Для дела\Проекты\epam_training\epam_sst\Task7\Test_project\SolutionTests\bin\Debug\App.config
+C:\Для дела\Проекты\epam_training\epam_sst\Task7\Test_project\SolutionTests\bin\Debug\SolutionTests.dll
+C:\Для дела\Проекты\epam_training\epam_sst\Task7\Test_project\SolutionTests\bin\Debug\SolutionTests.pdb
+C:\Для дела\Проекты\epam_training\epam_sst\Task7\Test_project\SolutionTests\bin\Debug\nunit.framework.dll
+C:\Для дела\Проекты\epam_training\epam_sst\Task7\Test_project\SolutionTests\bin\Debug\Test_project.exe
+C:\Для дела\Проекты\epam_training\epam_sst\Task7\Test_project\SolutionTests\bin\Debug\Test_project.pdb
+C:\Для дела\Проекты\epam_training\epam_sst\Task7\Test_project\SolutionTests\bin\Debug\nunit.framework.xml
+C:\Для дела\Проекты\epam_training\epam_sst\Task7\Test_project\SolutionTests\obj\Debug\SolutionTests.csprojResolveAssemblyReference.cache
+C:\Для дела\Проекты\epam_training\epam_sst\Task7\Test_project\SolutionTests\obj\Debug\SolutionTests.dll
+C:\Для дела\Проекты\epam_training\epam_sst\Task7\Test_project\SolutionTests\obj\Debug\SolutionTests.pdb

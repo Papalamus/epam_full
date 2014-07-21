@@ -1,6 +1,6 @@
 using System;
 
-namespace DataObjects
+namespace Test_project.Reflection
 {
     public delegate void ClassInspectHandler(Type t);
 }

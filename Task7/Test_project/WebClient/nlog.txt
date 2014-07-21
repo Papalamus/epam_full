@@ -1046,3 +1046,23 @@
    в System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
    в System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
    в System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+05/31/2014 01:20:59|Fatal|Ошибка System.Web.HttpUnhandledException (0x80004005): Выдано исключение типа "System.Web.HttpUnhandledException". ---> System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в WebClient.Classes.TableMaker.ValueCell(MemberInfo memberInfo, Object obj) в c:\Для дела\Проекты\epam_training\epam_sst\Task7\Test_project\WebClient\Classes\TableMaker.cs:строка 92
+   в WebClient.Classes.TableMaker.CreateRow(Object displayedObj, Func`3 createRegularCell, Func`3 createArrayCell) в c:\Для дела\Проекты\epam_training\epam_sst\Task7\Test_project\WebClient\Classes\TableMaker.cs:строка 51
+   в WebClient.Classes.TableMaker.CreateRow(Object value) в c:\Для дела\Проекты\epam_training\epam_sst\Task7\Test_project\WebClient\Classes\TableMaker.cs:строка 85
+   в WebClient.Classes.TableMaker.MakeTable(List`1 toDisplay, Table tbl) в c:\Для дела\Проекты\epam_training\epam_sst\Task7\Test_project\WebClient\Classes\TableMaker.cs:строка 69
+   в WebClient.WebForm1.DisplayTable(List`1 toDisplay, Table table) в c:\Для дела\Проекты\epam_training\epam_sst\Task7\Test_project\WebClient\UserForms\WebForm1.aspx.cs:строка 42
+   в WebClient.WebForm1.Page_Load(Object sender, EventArgs e) в c:\Для дела\Проекты\epam_training\epam_sst\Task7\Test_project\WebClient\UserForms\WebForm1.aspx.cs:строка 29
+   в System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   в System.Web.UI.Control.OnLoad(EventArgs e)
+   в System.Web.UI.Control.LoadRecursive()
+   в System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   в System.Web.UI.Page.HandleError(Exception e)
+   в System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   в System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   в System.Web.UI.Page.ProcessRequest()
+   в System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   в System.Web.UI.Page.ProcessRequest(HttpContext context)
+   в ASP.userforms_webform1_aspx.ProcessRequest(HttpContext context) в c:\Users\Константин\AppData\Local\Temp\Temporary ASP.NET Files\root\f815f06b\e49a0432\App_Web_as4r3zb5.1.cs:строка 0
+   в System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   в System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)

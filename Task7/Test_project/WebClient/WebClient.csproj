@@ -308,6 +308,7 @@
     <Compile Include="Classes\CaptchaHandler.ashx.cs">
       <DependentUpon>CaptchaHandler.ashx</DependentUpon>
     </Compile>
+    <Compile Include="Classes\Extension.cs" />
     <Compile Include="Classes\TableMaker.cs" />
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>

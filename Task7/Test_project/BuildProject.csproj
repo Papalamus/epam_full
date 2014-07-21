@@ -5,4 +5,14 @@
   
   <Target Name="Build">
   </Target>
+  <!-- Copies the application files to the corresponding directory -->
+  <Target Name="DeployApp">
+       <Message Text="Copying application files..." />
+       <ItemGroup>
+           <ApplicationFiles Include="$(ApplicationOutputDirectory)\**\*.*" />
+       </ItemGroup>
+       <Copy SourceFiles="@(ApplicationFiles)" DestinationFolder="$(DestinationPath)\%(RecursiveDir)"/>
+   </Target>
+   
+  
 </Project>

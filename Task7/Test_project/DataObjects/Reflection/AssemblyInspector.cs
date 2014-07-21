@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using DataObjects.Attributes;
 using System.Reflection;
+using System.Text;
+using DataObjects;
+using DataObjects.Attributes;
 
-namespace DataObjects
+namespace Test_project.Reflection
 {
     class AssemblyInspector
     {
