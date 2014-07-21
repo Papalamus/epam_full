@@ -1,0 +1,14 @@
+<Project  DefaultTargets="DeployApp" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  
+  <ItemGroup>
+    <ApplicationOutputDirectory >$(MSBuildProjectDirectory)<ApplicationOutputDirectory/>
+  </ItemGroup>
+ 
+  <Target Name="DeployApp">
+       <Message Text="Copying application files..." />
+       <ItemGroup>
+           <ApplicationFiles Include="$(ApplicationOutputDirectory)\**\*.*" />
+       </ItemGroup>
+       <Copy SourceFiles="@(ApplicationFiles)" DestinationFolder="$(DestinationPath)\%(RecursiveDir)"/>
+   </Target>
+</Project>
