@@ -4,7 +4,7 @@
   </ItemGroup>
   
   <PropertyGroup>
-    <ApplicationOutputDirectory Include ="*"/>
+    <ApplicationOutputDirectory >..\<ApplicationOutputDirectory/>
   </PropertyGroup>
   
   <Target Name="Build">
