@@ -2,6 +2,7 @@
   <ItemGroup>
     <Compile Include="Test_project.sln"/>
   </ItemGroup>
+  
   <PropertyGroup>
     <ApplicationOutputDirectory>Task7</ApplicationOutputDirectory>
   </PropertyGroup>
