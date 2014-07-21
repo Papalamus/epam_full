@@ -1,7 +1,7 @@
 <Project  DefaultTargets="DeployApp" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   
   <ItemGroup>
-    <ApplicationOutputDirectory >$(MSBuildProjectDirectory)<ApplicationOutputDirectory/>
+    <ApplicationOutputDirectory >..\..<ApplicationOutputDirectory/>
   </ItemGroup>
  
   <Target Name="DeployApp">
