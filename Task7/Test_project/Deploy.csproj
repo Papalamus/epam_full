@@ -1,9 +1,5 @@
 <Project  DefaultTargets="DeployApp" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   
-  <ItemGroup>
-    <ApplicationOutputDirectory >..\..<ApplicationOutputDirectory/>
-  </ItemGroup>
- 
   <Target Name="DeployApp">
        <Message Text="Copying application files..." />
        <ItemGroup>
